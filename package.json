@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:sir-rr-tiffen-center": "node dist/sir-rr-tiffen-center/server/server.mjs"
+    "serve:ssr:sir-rr-tiffen-center": "node dist/sir-rr-tiffen-center/server/server.mjs",
+    "deploy": "ng build --configuration production --base-href /sir-rr-tiffen-center/ && npx angular-cli-ghpages --dir=dist/sir-rr-tiffen-center/browser"
   },
   "prettier": {
     "overrides": [
