@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Gelasio:wght@400;700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Arimo', sans-serif;
+  background-color: #FFF;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+    padding-top: 0px; /* Offset for fixed header */
+}
+
+section {
+  width: 100%;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(90vh); /* Adjust min-height for header */
+}

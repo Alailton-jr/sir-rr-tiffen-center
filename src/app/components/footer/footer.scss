@@ -1,0 +1,34 @@
+.site-footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 5%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-pill {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.footer-pill:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.canva-link {
+  background: linear-gradient(90deg, #00C4CC 0%, #7D2AE8 100%);
+}

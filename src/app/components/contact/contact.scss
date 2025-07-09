@@ -1,0 +1,40 @@
+.contact-section {
+  background-color: rgb(255, 212, 138);
+  min-height: 60vh;
+}
+
+.contact-card {
+  text-align: center;
+  max-width: 600px;
+}
+
+.contact-card h2 {
+  font-family: 'Gelasio', serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: rgb(37, 99, 45);
+  margin-bottom: 40px;
+}
+
+.contact-details {
+  text-align: center;
+}
+
+.detail-item {
+  margin-bottom: 25px;
+}
+
+.detail-item h3 {
+  font-family: 'Gelasio', serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(20, 83, 50);
+  margin: 0 0 5px 0;
+}
+
+.detail-item p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
+  color: #000;
+  margin: 0;
+}
