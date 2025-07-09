@@ -2,12 +2,22 @@
   <div class="title-container">
     <h2>On the Menu</h2>
   </div>
-  <div class="menu-gallery">
-    <div class="menu-item" *ngFor="let item of menuItems">
-      <img [src]="item.image" [alt]="item.name">
-      <div class="item-name-card">
-        <h3>{{ item.name }}</h3>
+
+  <div class="gallery-wrapper">
+    <!-- Left Arrow Button -->
+    <button class="nav-arrow left-arrow" (click)="scrollLeft()">&#8249;</button>
+
+    <!-- The Swipeable Gallery -->
+    <div class="menu-gallery" #gallery>
+      <div class="menu-item" *ngFor="let item of menuItems">
+        <img [src]="item.image" [alt]="item.name">
+        <div class="item-name-card">
+          <h3>{{ item.name }}</h3>
+        </div>
       </div>
     </div>
+
+    <!-- Right Arrow Button -->
+    <button class="nav-arrow right-arrow" (click)="scrollRight()">&#8250;</button>
   </div>
 </section>

@@ -58,6 +58,9 @@
 }
 
 @media (max-width: 768px) {
+  .home-section{
+    padding-top: 40pt;
+  }
   .content-wrapper {
     flex-direction: column;
   }
@@ -66,5 +69,18 @@
   }
   .text-content p {
     font-size: 1.2rem;
+  }
+  .image-content img {
+    height: 50vh; /* Reduce image height when layout stacks */
+  }
+}
+
+/* For Mobile Phones */
+@media (max-width: 480px) {
+  .text-content h1 {
+    font-size: 2rem; /* Further reduce text size */
+  }
+  .image-content img {
+    height: 40vh; /* Further reduce image height on small screens */
   }
 }
